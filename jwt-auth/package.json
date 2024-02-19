@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/jkcsharprepos/nodejs-projects/issues"
   },
-  "homepage": "https://github.com/jkcsharprepos/nodejs-projects#readme"
+  "homepage": "https://github.com/jkcsharprepos/nodejs-projects#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
